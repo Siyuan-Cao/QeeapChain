@@ -35,7 +35,7 @@ public class ClientApp {
 		Path walletPath = Paths.get("wallet");
 		Wallet wallet = Wallets.newFileSystemWallet(walletPath);
 		// load a CCP
-		Path networkConfigPath = Paths.get("..", "fabric-samples", "test-network", "organizations", "peerOrganizations",
+		Path networkConfigPath = Paths.get("..", "Backend", "test-network", "organizations", "peerOrganizations",
 				"org1.example.com", "connection-org1.yaml");
 
 		Gateway.Builder builder = Gateway.createBuilder();
@@ -47,7 +47,7 @@ public class ClientApp {
 		Path walletPath = Paths.get("wallet");
 		Wallet wallet = Wallets.newFileSystemWallet(walletPath);
 		// load a CCP
-		Path networkConfigPath = Paths.get("..", "fabric-samples", "test-network", "organizations", "peerOrganizations",
+		Path networkConfigPath = Paths.get("..", "Backend", "test-network", "organizations", "peerOrganizations",
 				"org1.example.com", "connection-org1.yaml");
 
 		Gateway.Builder builder = Gateway.createBuilder();
